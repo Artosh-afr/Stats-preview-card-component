@@ -135,6 +135,8 @@ main{
     text-align: center;
     position:absolute;
     top:0;
+    left:50%;
+    transform:translateX(-50%);
     color:white;
     }
   .attribution a { color: hsl(228, 45%, 44%); }
