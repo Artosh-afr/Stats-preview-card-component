@@ -4,6 +4,7 @@
         max-height:100% ;
 
     }
+    
 
     section{
         order: 2;
@@ -27,6 +28,10 @@
         background-size: 100% 100%;
         border-radius: 8px 8px 0 0;
     }
+    
+    footer{
+        display: none;
+    }
 }
 
 @media (max-width:600px){
@@ -47,7 +52,5 @@
         flex-basis: 300px;
     }
 
-    footer{
-        display: none;
-    }
+    
 }
